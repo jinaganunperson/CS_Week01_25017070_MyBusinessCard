@@ -42,9 +42,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(299, 73);
+            this.button1.Location = new System.Drawing.Point(555, 146);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 23);
+            this.button1.Size = new System.Drawing.Size(299, 46);
             this.button1.TabIndex = 0;
             this.button1.Text = "배경색 랜덤 변경";
             this.button1.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(215, 111);
+            this.label1.Location = new System.Drawing.Point(399, 222);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 16);
+            this.label1.Size = new System.Drawing.Size(417, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "지능형 SW 융합대학 2학년";
             // 
@@ -64,9 +66,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(216, 146);
+            this.label2.Location = new System.Drawing.Point(401, 292);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(193, 16);
+            this.label2.Size = new System.Drawing.Size(383, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "06younseo@gmail.com";
             // 
@@ -74,18 +77,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(214, 74);
+            this.label3.Location = new System.Drawing.Point(397, 148);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 19);
+            this.label3.Size = new System.Drawing.Size(134, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "장윤서";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(56, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(104, 148);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 98);
+            this.pictureBox1.Size = new System.Drawing.Size(208, 196);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -96,9 +101,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("굴림", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(219, 178);
+            this.button2.Location = new System.Drawing.Point(407, 356);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(139, 46);
             this.button2.TabIndex = 6;
             this.button2.Text = "GitHub";
             this.button2.UseVisualStyleBackColor = true;
@@ -107,9 +113,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("굴림", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.Location = new System.Drawing.Point(65, 178);
+            this.button3.Location = new System.Drawing.Point(121, 356);
+            this.button3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 23);
+            this.button3.Size = new System.Drawing.Size(175, 46);
             this.button3.TabIndex = 8;
             this.button3.Text = "사진 변경";
             this.button3.UseVisualStyleBackColor = true;
@@ -117,9 +124,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 265);
+            this.ClientSize = new System.Drawing.Size(869, 530);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
@@ -127,6 +134,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
